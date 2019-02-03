@@ -1,13 +1,12 @@
 ---
 layout: post
 title:  Python 学习笔记
-date:   2017-07-24 00:00:00 +0800
+date:   2019-01-09 18:00:00 +0800
 categories: python
 tag: 教程
 ---
 
 * content
-
 {:toc}
 
 # 变量的命名规范
