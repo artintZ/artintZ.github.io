@@ -1,1 +1,26 @@
-theme: jekyll-theme-minimal
+# Site settings
+name: 执念
+email: 707381369@qq.com
+author: zzk
+url: https://artintZ.github.io
+resume_site: https://artintZ.github.io
+github: https://github.com/artintZ/
+baseurl: ""
+description: Actually, less is more!
+meta_description: zzk;个人博客;python;人工智能
+motto: It's our wits that make us men.
+banner: 学无止境。
+
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
+paginate: 10
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
+github_username: artintZ
+
+# Build settings
+markdown: kramdown
+
+baidu_analysis: 
+
