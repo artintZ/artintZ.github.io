@@ -34,17 +34,13 @@ tag: 教程
 
 # 四、创建子用户
 
-1. 在`对象存储`中点`密钥管理`，前往`云 API 密钥`页面，会收到提示新建子用户（图示因为我已经建立了子用户），为了安全性考虑创建子用户
-![新建子用户](https://md-image-1258527510.cos.ap-shanghai.myqcloud.com/新建子用户-dc82325b-205a-4068-a7bd-dfabff0e22fc.png)
+1. 在`对象存储`中点`密钥管理`，前往`云 API 密钥`页面，会收到提示新建子用户（图示因为我已经建立了子用户），为了安全性考虑创建子用户![新建子用户](https://md-image-1258527510.cos.ap-shanghai.myqcloud.com/新建子用户-dc82325b-205a-4068-a7bd-dfabff0e22fc.png)
 
-2. 接着依次选择`子用户>自定义创建`，完善用户信息，其中`编程访问`要打勾
-![子用户信息-1c7bd14e-2f1e-45a0-9103-aa7d065fbfcd](https://md-image-1258527510.cos.ap-shanghai.myqcloud.com/子用户信息-1c7bd14e-2f1e-45a0-9103-aa7d065fbfcd.png)
+2. 接着依次选择`子用户>自定义创建`，完善用户信息，其中`编程访问`要打勾![子用户信息](https://md-image-1258527510.cos.ap-shanghai.myqcloud.com/子用户信息-1c7bd14e-2f1e-45a0-9103-aa7d065fbfcd.png)
 
-3. 接着设置用户权限，在搜索框中搜索 COS，找到`对象存储（COS）全读写访问权限`选中，然后下一步
-![子用户策略-efa1c36c-fabb-48fe-a53b-e086f00f974e](https://md-image-1258527510.cos.ap-shanghai.myqcloud.com/子用户策略-efa1c36c-fabb-48fe-a53b-e086f00f974e.png)
+3. 接着设置用户权限，在搜索框中搜索 COS，找到`对象存储（COS）全读写访问权限`选中，然后下一步![子用户策略](https://md-image-1258527510.cos.ap-shanghai.myqcloud.com/子用户策略-efa1c36c-fabb-48fe-a53b-e086f00f974e.png)
 
-4. 点完成后就创建成功了，务必记录下 secret id 和secret key，配置插件时要用到
-![子用户密钥-fe0a6f7e-e322-4395-b07a-05fa6a6bbec2](https://md-image-1258527510.cos.ap-shanghai.myqcloud.com/子用户密钥-fe0a6f7e-e322-4395-b07a-05fa6a6bbec2.png)
+4. 点完成后就创建成功了，务必记录下 secret id 和secret key，配置插件时要用到![子用户密钥](https://md-image-1258527510.cos.ap-shanghai.myqcloud.com/子用户密钥-fe0a6f7e-e322-4395-b07a-05fa6a6bbec2.png)
 
 # 五、`vscode-upload-tencentCOS`插件配置
 
@@ -54,8 +50,8 @@ tag: 教程
 
 # 六、`vscode-upload-tencentCOS`使用方法
 
-- 在 markdown 文档中，将光标放在需要插入图片的位置，按快捷键`Alt + Y`，在弹出的命令框中粘贴图片的绝对路径/相对路径，或者在线地址，然后回车键即可；
-- 或者按快捷键`Alt + U`直接选择本地图片。
+* 在 markdown 文档中，将光标放在需要插入图片的位置，按快捷键`Alt + Y`，在弹出的命令框中粘贴图片的绝对路径/相对路径，或者在线地址，然后回车键即可；
+* 或者按快捷键`Alt + U`直接选择本地图片。
 
 # 七、结语
 

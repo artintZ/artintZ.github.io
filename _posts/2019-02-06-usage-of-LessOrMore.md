@@ -85,4 +85,4 @@ tag: 教程
 
 [如何使用LessOrMore这个Jekyll模版](http://www.hifreud.com/LessOrMore/2016/08/26/how-to-use-this-jekyll-theme/)
 
-附主题作者简介：[ Freud Kang](http://www.hifreud.com/Resume.io/)
+附主题作者简介：[Freud Kang](http://www.hifreud.com/Resume.io/)
