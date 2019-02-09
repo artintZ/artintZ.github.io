@@ -10,8 +10,8 @@ tag: note
 {:toc}
 
 
-题目
----
+## 题目
+
 运用python中的`list`、`tuple`等知识编写一个购物车程序，要求如下：
 
 1. 进入程序用户首先输入工资总额
@@ -20,13 +20,13 @@ tag: note
 4. 可多次购买并且可随时退出
 5. 退出前打印购物清单
 
-# 流程图
+## 流程图
 
 ![python-list-购物车程序](https://md-image-1258527510.cos.ap-shanghai.myqcloud.com/python-list-购物车程序-7342231f-3bb4-4d92-a430-460c30a2df3e.png)
 
-# 主要功能
+## 主要功能
 
-## 显示菜单
+### 显示菜单
 
 * 就是用`for`循环打印商品清单元组`goods`。考虑到菜单的排版以及要将编号加进去，我首先想到的是两层循环：
 
@@ -74,7 +74,7 @@ for i in enumerate(name):
 
 ![菜单3](https://md-image-1258527510.cos.ap-shanghai.myqcloud.com/菜单-10b62b03-75a8-4742-9327-6ab8a7455cec.png)
 
-## 购买商品
+### 购买商品
 
 购买功能很简单，主要是判断价格与余额（我把`while`循环模块放在主框架了），若购买成功则计算余额和编辑已买商品列表`goods_bought`。
 
@@ -92,7 +92,7 @@ def buy(n):
 
 **注**：在函数内部修改全局变量赋值时，要用`global`提前声明。
 
-## 结账功能
+### 结账功能
 
 退出时打印一份购物清单，注明总计消费和余额。功能类似`menu`模块，不作赘述。
 
@@ -105,10 +105,10 @@ def balance():
     input('按任意键退出')
 ```
 
-# 总结
+## 总结
 
 这个购物车小程序是在刚学完列表、元组的时候编写的，通过完成这个题目，我不仅练习巩固了刚学的python语法，还扩展学习了一些实用的函数方法，比如多个变量的`for`循环和`enumerate()`。
 
-# 源代码
+## 源代码
 
 [https://github.com/artintZ/python/blob/master/day2/shopping.py](https://github.com/artintZ/python/blob/master/day2/shopping.py)
