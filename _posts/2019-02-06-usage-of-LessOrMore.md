@@ -2,7 +2,7 @@
 layout: post
 title:  LessOrMore主题的用法和配置
 date:   2019-02-06 18:29:40 +0800
-categories: jekyll theme
+categories: jekyll
 tag: 教程
 ---
 
