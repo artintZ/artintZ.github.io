@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Python 学习笔记
+title:  Python变量命名规范及格式化
 date:   2019-01-09 18:00:00 +0800
 categories: python
 tag: 教程
@@ -8,6 +8,10 @@ tag: 教程
 
 * content
 {:toc}
+
+# 代码格式化
+
+VSCode右键菜单有格式化选项，第一次使用会提示默认安装`autopep8`，安装后即可使用。
 
 # 变量的命名规范
 
