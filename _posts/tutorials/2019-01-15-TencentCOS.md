@@ -3,7 +3,7 @@ layout: post
 title:  腾讯云 COS 图床 + VSCode 插件一键获取外链
 date:   2019-01-15 18:00:00 +0800
 categories: markdown VSCode
-tag: 教程
+tag: tutorial
 ---
 
 * content

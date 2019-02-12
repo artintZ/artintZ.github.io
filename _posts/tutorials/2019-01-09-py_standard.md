@@ -3,7 +3,7 @@ layout: post
 title:  Python变量命名规范及格式化
 date:   2019-01-09 18:00:00 +0800
 categories: python
-tag: 教程
+tag: tutorial
 ---
 
 * content

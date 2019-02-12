@@ -3,7 +3,7 @@ layout: post
 title:  Markdown 语法基础
 date:   2019-01-12 18:00:00 +0800
 categories: markdown
-tag: 教程
+tag: tutorial
 ---
 
 * content

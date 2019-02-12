@@ -3,7 +3,7 @@ layout: post
 title: VSCode中markdown文件用户代码段无法生效的解决方法
 date: 2019-02-10 13:52:18 +0800
 categories: markdown VSCode
-tag: 教程
+tag: tutorial
 ---
 
 * content
