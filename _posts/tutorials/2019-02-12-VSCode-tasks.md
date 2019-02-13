@@ -64,6 +64,3 @@ VSCode官方文档:
 > **options**: Override the defaults for `cwd` (current working directory), `env` (environment variables), or `shell` (default shell). Options can be set per task but also globally or per platform.
 
 > **${fileDirname}** - the current opened file's dirname
-
-
-options的shell设置明天再研究
