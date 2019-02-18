@@ -3,7 +3,7 @@ layout: post
 title: python项目的一般目录结构
 date: 2019-02-18 18:59:44 +0800
 categories: python
-tag: tutorial
+tag: note
 ---
 
 * content
