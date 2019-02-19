@@ -257,5 +257,9 @@ secret['ddd'] = '444'
 with open('example.ini', 'w') as configfile:
     config.write(configfile)
 
-
+# 解析配置文件
+config.read('example.ini')
+print(config.defaults())
+print(config.sections())
+print(config['bitbucket.org']['User'])
 ```
