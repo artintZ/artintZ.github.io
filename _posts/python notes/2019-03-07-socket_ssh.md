@@ -1,7 +1,7 @@
 ---
 layout: post
 title: python编写一个ssh（socket练习）
-date: 2019-03-21 17:57:41 +0800
+date: 2019-03-07 17:57:41 +0800
 categories: python
 tag: note
 ---

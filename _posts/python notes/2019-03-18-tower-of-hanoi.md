@@ -1,7 +1,7 @@
 ---
 layout: post
 title: python编写的汉诺塔的算法（递归）
-date: 2019-03-27 12:51:59 +0800
+date: 2019-03-18 12:51:59 +0800
 categories: python
 tag: note
 ---
